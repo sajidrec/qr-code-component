@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    /* my css */
+    body {
+      background-color: #d5e1ef;
+      font-family: sans-serif;
+    }
+
+    .main-container {
+      display: block;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      margin: auto;
+      height: 460px;
+      width: 300px;
+      background-color: white;
+      border-radius: 5%;
+    }
+
+    .flexbox {
+      display: flex;
+      flex-direction: column;
+      /* align-items: center; */
+    }
+
+    img {
+      align-self: center;
+      margin-top: 15px;
+      border-radius: 5%;
+      width: 90%;
+    }
+
+    .description-title {
+      font-size: 1.2rem;
+      padding: 0px 20px;
+      align-self: center;
+      font-weight: bold;
+      text-align: center;
+    }
+    .description-discribe{
+      font-size: .95rem;
+      text-align: center;
+      padding: 0px 20px;
+      color: #78808c;
+    }
+
+    
+  </style>
+</head>
+
+<body>
+
+  <div class="main-container">
+
+    <div class="flexbox">
+
+      <img src="./images/image-qr-code.png" alt="">
+      <h1 class="description-title">
+        Improve your front-end skills by building projects
+        </h1>
+      <p class="description-discribe">
+        Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/sajidrec" target="_blank">MD. Sajid Hossain</a>.
+    </div> 
+
+  </div>
+
+  
+  
+
+</body>
+
+</html>
